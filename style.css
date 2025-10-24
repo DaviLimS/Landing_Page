@@ -11,7 +11,7 @@
 .banner {
     background-color: #1F2937;
     width: 100%;
-    height: 70vh;
+    height: 75vh;
 }
 
 .header {
@@ -32,10 +32,21 @@
 }
 
 .hero {
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 70%;
+}
+
+.text_hero{
+    width: 50vw;
+}
+
+.text_hero p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .h1-hero {
@@ -62,4 +73,16 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     transform: scale(1.05);
+}
+
+.image {
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
 }
