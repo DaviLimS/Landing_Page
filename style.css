@@ -168,3 +168,46 @@ main {
     font-size: 18px;
     color: #192f37;
 }
+
+.action {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    margin-left: 7.5vw;
+    margin-right: 15vw;
+    width: 70vw;
+    height: 20vh;
+    background-color: #3882f6;
+    border-radius: 35px;
+}   
+
+.action_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+}
+
+.action_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}   
+
+.btn {
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    border: 1.5px #7300ff solid;
+    box-shadow: #29005c 0px 0px 10px 1px;
+}
