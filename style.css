@@ -186,11 +186,19 @@ main {
 .action_text {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    margin-left: 40%;
     width: 100%;
+    color: white;
+}
+
+.call {
+    font-size: 1.2em;
+    margin-bottom: 1vh;
+}
+
+.call_sub {
+    font-size: 0.8em;
 }
 
 .action_button {
@@ -206,8 +214,9 @@ main {
     text-align: center;
     width: 110px;
     height: 40px;
-    background-color: #ffffff00;
+    background-color: #ff0000be;
+    color: white;
     border-radius: 10px;
     border: 1.5px #7300ff solid;
-    box-shadow: #29005c 0px 0px 10px 1px;
-}
+    box-shadow: #0c0000 0px 0px 10px 1px;
+} 
