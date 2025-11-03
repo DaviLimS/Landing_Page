@@ -220,3 +220,20 @@ main {
     border: 1.5px #7300ff solid;
     box-shadow: #0c0000 0px 0px 10px 1px;
 } 
+
+
+.footer {
+    display: table;
+    width: 98.9vw;
+    height: 20vh;
+    background-color: rgb(23, 25, 63);
+}
+
+.footer_text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+}
